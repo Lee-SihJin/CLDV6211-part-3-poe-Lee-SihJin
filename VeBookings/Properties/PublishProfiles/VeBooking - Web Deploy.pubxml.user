@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+<<<<<<< Updated upstream
+    <History>True|2025-04-07T10:57:49.8348278Z||;True|2025-04-07T11:33:22.2270486+02:00||;True|2025-04-07T10:41:24.5243659+02:00||;False|2025-04-06T22:17:20.4713362+02:00||;</History>
+=======
+<<<<<<< HEAD
+    <History>False|2025-05-12T17:10:57.1744074Z||;False|2025-05-12T19:08:44.8149671+02:00||;False|2025-05-12T19:07:42.7587822+02:00||;True|2025-04-07T12:57:49.8348278+02:00||;True|2025-04-07T11:33:22.2270486+02:00||;True|2025-04-07T10:41:24.5243659+02:00||;False|2025-04-06T22:17:20.4713362+02:00||;</History>
+=======
+    <History>True|2025-04-07T10:57:49.8348278Z||;True|2025-04-07T11:33:22.2270486+02:00||;True|2025-04-07T10:41:24.5243659+02:00||;False|2025-04-06T22:17:20.4713362+02:00||;</History>
+>>>>>>> 33e0679b118b2566f538ee49f8615dcbb2a46058
+>>>>>>> Stashed changes
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

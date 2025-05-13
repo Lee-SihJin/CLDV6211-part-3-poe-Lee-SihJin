@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="VeBooking" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\lab_services_student\\Desktop\\CLDV\\part-1-poe-Lee-SihJin\\VeBookings\\obj\\Release\\net9\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>
