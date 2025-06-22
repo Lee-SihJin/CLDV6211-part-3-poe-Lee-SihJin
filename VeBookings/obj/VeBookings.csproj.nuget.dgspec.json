@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lab_services_student\\Desktop\\CLDV\\part-1-poe-Lee-SihJin\\VeBookings\\VeBookings.csproj": {}
+    "C:\\Users\\lab_services_student\\Desktop\\CLDV6211-part-3-poe-Lee-SihJin\\VeBookings\\VeBookings.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lab_services_student\\Desktop\\CLDV\\part-1-poe-Lee-SihJin\\VeBookings\\VeBookings.csproj": {
+    "C:\\Users\\lab_services_student\\Desktop\\CLDV6211-part-3-poe-Lee-SihJin\\VeBookings\\VeBookings.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lab_services_student\\Desktop\\CLDV\\part-1-poe-Lee-SihJin\\VeBookings\\VeBookings.csproj",
+        "projectUniqueName": "C:\\Users\\lab_services_student\\Desktop\\CLDV6211-part-3-poe-Lee-SihJin\\VeBookings\\VeBookings.csproj",
         "projectName": "VeBookings",
-        "projectPath": "C:\\Users\\lab_services_student\\Desktop\\CLDV\\part-1-poe-Lee-SihJin\\VeBookings\\VeBookings.csproj",
+        "projectPath": "C:\\Users\\lab_services_student\\Desktop\\CLDV6211-part-3-poe-Lee-SihJin\\VeBookings\\VeBookings.csproj",
         "packagesPath": "C:\\Users\\lab_services_student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lab_services_student\\Desktop\\CLDV\\part-1-poe-Lee-SihJin\\VeBookings\\obj\\",
+        "outputPath": "C:\\Users\\lab_services_student\\Desktop\\CLDV6211-part-3-poe-Lee-SihJin\\VeBookings\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

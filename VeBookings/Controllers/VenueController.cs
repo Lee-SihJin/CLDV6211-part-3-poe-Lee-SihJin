@@ -143,8 +143,8 @@ namespace VeBookings.Controllers
         // Uploads an image to Azure Blob Storage and returns the Blob URL
         private async Task<string> UploadImageToBlobAsync(IFormFile imageFile)
         {
-            var connectionString = "Replace";
-            var containerName = "venue01";
+            var connectionString = "1";
+            var containerName = "cldv6211poe";
 
             var blobServiceClient = new BlobServiceClient(connectionString);
             var containerClient = blobServiceClient.GetBlobContainerClient(containerName);

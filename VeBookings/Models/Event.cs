@@ -1,4 +1,6 @@
-﻿namespace VeBookings.Models
+﻿using System.Diagnostics;
+
+namespace VeBookings.Models
 {
     public class Event
     {
@@ -7,6 +9,9 @@
         public DateTime EventDate { get; set; }
         public string Description { get; set; }
         public int VenueId { get; set; }
+        public Venue? Venue { get; set; }
+        public int? EventTypeId { get; set; } //Step 4 
+        public EventType? EventType { get; set; }
         public List<Booking> Bookings { get; set; } = new();
 
     }

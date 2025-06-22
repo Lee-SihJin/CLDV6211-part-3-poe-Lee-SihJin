@@ -14,17 +14,32 @@ namespace VeBookings.Controllers
         {
             _context = context;
         }
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchType, int? venueId, DateTime? startDate, DateTime? endDate)
 
         {
-            var events = await _context.Event.ToListAsync();
+            var events = _context.Event
+                .Include(e => e.Venue)
+                .Include(e => e.EventType)
+                .AsQueryable();
 
-            return View(events);
+            if(!string.IsNullOrEmpty(searchType) ) 
+                events= events.Where(e =>e.EventType.Name == searchType);
+
+            if (venueId.HasValue)
+                events = events.Where(e => e.VenueId == venueId);
+
+            if (startDate.HasValue && endDate.HasValue)
+                events = events.Where(e => e.EventDate >= startDate && e.EventDate <= endDate);
+
+            ViewData["EventTypes"] = _context.EventType.ToList();
+            ViewData["Venues"] = _context.Venue.ToList();
+            return View(await events.ToListAsync());
         }
 
         public IActionResult Create()
         {
             ViewData["Venues"] = _context.Venue.ToList();
+            ViewData["EventTypes"] = _context.EventType.ToList();
             return View();
 
         }
@@ -43,6 +58,8 @@ namespace VeBookings.Controllers
             }
 
             ViewData["Venues"] = _context.Venue.ToList();
+
+            ViewData["EventTypes"] = _context.EventType.ToList();
             return View(@event);
         }
 
@@ -107,7 +124,7 @@ namespace VeBookings.Controllers
             {
                 return NotFound();
             }
-
+            ViewData["EventTypes"] = _context.EventType.ToList();
             return View(events);
         }
         [HttpPost]
